@@ -1,0 +1,238 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Neha's Restaurant | Premium Dining</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f8f5f0;
+            color: #2d2d2d;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #3b1f16, #6b3e2e);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 17px;
+            color: #f3ddd0;
+        }
+
+        .restaurant-name {
+            font-size: 42px;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+
+        .tagline {
+            font-size: 18px;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 1000px;
+            margin: 45px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .section-title h2 {
+            font-size: 32px;
+            color: #3b1f16;
+            margin-bottom: 8px;
+        }
+
+        .section-title p {
+            color: #777;
+        }
+
+        /* Menu */
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .menu-card {
+            background: white;
+            padding: 30px 25px;
+            border-radius: 14px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease;
+        }
+
+        .menu-card:hover {
+            transform: translateY(-6px);
+        }
+
+        .food-icon {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .menu-card h3 {
+            color: #3b1f16;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .menu-card p {
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #a45b3c;
+        }
+
+        /* Welcome Box */
+        .welcome {
+            margin-top: 45px;
+            background: #fff;
+            padding: 30px;
+            border-left: 5px solid #a45b3c;
+            border-radius: 10px;
+            box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
+        }
+
+        .welcome h3 {
+            color: #3b1f16;
+            margin-bottom: 8px;
+        }
+
+        /* Footer */
+        footer {
+            background: #3b1f16;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #eadbd4;
+        }
+
+        .seat {
+            font-weight: bold;
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .restaurant-name {
+                font-size: 32px;
+            }
+
+            .menu {
+                grid-template-columns: 1fr;
+            }
+
+            header {
+                padding: 45px 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1 class="restaurant-name">Neha's Restaurant</h1>
+        <p class="tagline">Delicious Food • Warm Atmosphere • Memorable Moments</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <div class="section-title">
+            <h2>Our Menu</h2>
+            <p>Freshly prepared favorites made with care.</p>
+        </div>
+
+        <section class="menu">
+
+            <!-- Menu Item 1 -->
+            <div class="menu-card">
+                <div class="food-icon">🍛</div>
+                <h3>Chicken Biryani</h3>
+                <p>
+                    Fragrant basmati rice cooked with tender chicken
+                    and traditional spices.
+                </p>
+                <div class="price">Rs. 450</div>
+            </div>
+
+            <!-- Menu Item 2 -->
+            <div class="menu-card">
+                <div class="food-icon">🍲</div>
+                <h3>Chicken Karahi</h3>
+                <p>
+                    Tender chicken prepared with tomatoes,
+                    herbs and aromatic spices.
+                </p>
+                <div class="price">Rs. 650</div>
+            </div>
+
+            <!-- Menu Item 3 -->
+            <div class="menu-card">
+                <div class="food-icon">🍔</div>
+                <h3>Zinger Burger</h3>
+                <p>
+                    Crispy chicken fillet with fresh lettuce
+                    and our signature sauce.
+                </p>
+                <div class="price">Rs. 550</div>
+            </div>
+
+        </section>
+
+        <!-- Welcome Section -->
+        <section class="welcome">
+            <h3>Welcome to Neha's Restaurant</h3>
+            <p>
+                We believe great food brings people together.
+                Enjoy delicious meals prepared with quality
+                ingredients and served with care.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Thank you for visiting Neha's Restaurant!</p>
+        <p class="seat">Seat Number: 2329240</p>
+    </footer>
+
+</body>
+</html>
+```
